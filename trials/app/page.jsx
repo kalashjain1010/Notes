@@ -13,7 +13,7 @@ const page = () => {
     }
   return (
     <div className='p-5'>
-      <input type='number' className='border-2 rounded-md px-4 py-2' placeholder='enteryour num ' onChange={(e)=>{s
+      <input type='number' className='border-2 rounded-md px-4 py-2' placeholder='enteryour num ' onChange={(e)=>{
          console.log(e.target.value) 
       }} />
       <div className='21'>
