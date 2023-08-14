@@ -10,8 +10,6 @@ const page = () => {
         const  datagg  = await axios.get("https://jsonplaceholder.typicode.com/users")
         // setNum1({datagg})\
 
-        // return cons
-        
     }
   return (
     <div className='p-5'>
