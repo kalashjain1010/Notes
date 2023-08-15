@@ -9,7 +9,7 @@ const page = () => {
     const gg = async () => {
         const  datagg  = await axios.get("https://jsonplaceholder.typicode.com/users")
         // setNum1({datagg})\
-
+as
     }
   return (
     <div className='p-5'>
