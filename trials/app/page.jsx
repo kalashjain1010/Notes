@@ -7,7 +7,7 @@ const page = () => {
     const [num, setNum] = useState("")
     const [num1, setNum1] = useState([])
     const gg = async () => {
-        // const  datagg  = await axios.get("https://jsonplaceholder.typicode.com/users")
+        const  datagg  = await axios.get("https://jsonplaceholder.typicode.com/users")
         // setNum1({datagg})
         // return console.log(datagg)
     }
