@@ -1,28 +1,13 @@
 word vs keyword     
 
-var let const  -- inka diff kha use hote
-        var - old js mai h  
-                var - function scoped hota h        // var - function scoped hota h => var apne parent fuction mai khi bhi  use ho skta h
-
-            fuction abc(){
-                for(var i=0; i<5; i++){
-                    console(i);
-                }
-                console(i);
-            }
-
-
-        let const - new js mai
-            (ye dono braces scoped h)
-                let - change ho skta
-                const - nhi ho skta change
-
 hoisting  - value upr aajana
 
+
+
+
 types - kese nikalye
-
-
 primitive:number undifiend and refrence: array[] object{} ()
+
 
 
 function 
@@ -36,4 +21,33 @@ function
          return "Hello World!";
         }
 
+
+
+var let const  -- inka diff kha use hote
+        var - old js mai h  
+                var - function scoped hota h        // var - function scoped hota h => var apne parent fuction mai khi bhi  use ho skta h
+
+            fuction abc(){
+                for(var i=0; i<5; i++){
+                    console(i);
+                }
+                console(i);
+            }
+            ye window object h (isko var mai value daal k window mai check krna or let ya const ki value daal k)(console mai window likh k enter mar to open)
+
+
+
+        let const - new js mai
+            (ye window obj nhi h)
+            (ye dono braces scoped h)
+                let - change ho skta
+                const - nhi ho skta change
+
+
+window : js k pass bohot saare features hote h  pr kuch feature vo boorow kr ta h window se yani browser se to chi sb window mai aate h
+
+
+~~browser context api
+    ` stack 
+    ` heap : intermedate data store krta h jese 2+3 +3+4+5 kra to phele 2 +3 store krega that is 5 fir 5 +3 krega fir 8  ko store krega usmai 4 add krega and so on
 
