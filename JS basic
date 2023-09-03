@@ -1,0 +1,39 @@
+word vs keyword     
+
+var let const  -- inka diff kha use hote
+        var - old js mai h  
+                var - function scoped hota h        // var - function scoped hota h => var apne parent fuction mai khi bhi  use ho skta h
+
+            fuction abc(){
+                for(var i=0; i<5; i++){
+                    console(i);
+                }
+                console(i);
+            }
+
+
+        let const - new js mai
+            (ye dono braces scoped h)
+                let - change ho skta
+                const - nhi ho skta change
+
+hoisting  - value upr aajana
+
+types - kese nikalye
+
+
+primitive:number undifiend and refrence: array[] object{} ()
+
+
+function 
+        : 
+           function abc(){
+            console
+           }
+           abc()
+
+      hello = () => {
+         return "Hello World!";
+        }
+
+
