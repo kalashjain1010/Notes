@@ -27,3 +27,15 @@
         // }
 
 
+
+// function afg(){
+//         for(let i=0; i<5; i++){
+//                 console.log(i);
+//             }
+//             console.log(i)
+// }
+
+// afg();
+
+var b = 2
+console.log(b)
