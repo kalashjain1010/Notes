@@ -37,5 +37,15 @@
 
 // afg();
 
-var b = 2
-console.log(b)
+// var b = 2
+// console.log(b)
+
+// a= [1,2,3,4,5]
+
+// a.push("5")
+// a
+
+// var gg=(function (){
+//         var a = 21
+//         return a
+// })()
